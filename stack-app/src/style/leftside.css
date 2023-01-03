@@ -1,0 +1,12 @@
+.leftSide {
+  width: 150px;
+  border: 1px solid black;
+}
+
+li {
+  list-style: none;
+}
+
+ul {
+  padding: 0;
+}
