@@ -1,8 +1,8 @@
 .leftSide {
   width: 150px;
-  position: sticky;
-  top: 50px;
-  border-right: 1px solid rgba(0, 0, 0, 0.298);
+  /* position: -webkit-sticky; */
+  /* top: 50px; */
+  height: auto;
   padding-top: 20px;
   padding-left: 10px;
   z-index: -1;
@@ -19,6 +19,8 @@ li {
   padding: 0;
   font-size: 12px;
   color: gray;
+  position: sticky;
+  top: 70px;
 }
 .list {
   display: flex;

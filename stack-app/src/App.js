@@ -1,7 +1,7 @@
 import Nav from "./component/Nav";
 import Left from "./component/Leftside";
+import Middle from "./component/Middle";
 import "./App.css";
-import Title from "./component/Title";
 
 function App() {
   return (
@@ -9,9 +9,7 @@ function App() {
       <Nav />
       <main className="container main">
         <Left />
-        <section className="content">
-          <Title />
-        </section>
+        <Middle />
       </main>
     </div>
   );

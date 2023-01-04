@@ -1,0 +1,45 @@
+.title {
+  padding: 30px;
+}
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#askBtn {
+  padding: 10px;
+  background-color: rgb(79, 150, 242);
+  border: 1px solid blue;
+  border-radius: 5px;
+  color: white;
+}
+.top h2 {
+  margin: 0;
+  font-weight: 500;
+}
+
+.bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.btnGrp {
+  display: flex;
+}
+
+.btnGrp a {
+  text-decoration: none;
+  color: gray;
+  border: 1px solid gray;
+  padding: 5px;
+}
+
+.filterBtn {
+  padding: 5px 15px;
+  font-size: 14px;
+  color: rgb(9, 83, 179);
+  background-color: rgba(57, 128, 233, 0.529);
+  border: 1px solid blue;
+  border-radius: 4px;
+}

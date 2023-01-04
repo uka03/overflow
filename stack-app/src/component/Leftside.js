@@ -10,7 +10,7 @@ export default function Left() {
           PUBLIC
           <ul className="list">
             <li>Questions</li>
-            <li>Tags</li>
+            <li> Tags</li>
             <li>Users</li>
             <li>Companies</li>
           </ul>

@@ -1,7 +1,6 @@
 .App {
-  height: 400vh;
-  /* width: 1280px; */
-  margin: 0 auto;
+  /* height: 400vh; */
+  /* /margin: 0 auto; */
 }
 .container {
   max-width: 1280px;
@@ -10,6 +9,7 @@
 }
 .main {
   margin-top: 50px;
+  display: flex;
 }
 .App-logo {
   height: 40vmin;
