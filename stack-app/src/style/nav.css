@@ -7,7 +7,7 @@
   /* border: 1px solid black; */
   border-top: 3px solid coral;
   box-shadow: 1px 0px 5px rgba(0, 0, 0, 0.342);
-  position: sticky;
+  position: fixed;
   top: 0%;
   width: 100%;
   background-color: white;

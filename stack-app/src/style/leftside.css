@@ -1,12 +1,29 @@
 .leftSide {
   width: 150px;
-  border: 1px solid black;
+  position: sticky;
+  top: 50px;
+  border-right: 1px solid rgba(0, 0, 0, 0.298);
+  padding-top: 20px;
+  padding-left: 10px;
+  z-index: -1;
 }
 
 li {
   list-style: none;
 }
 
-ul {
+.lists {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
   padding: 0;
+  font-size: 12px;
+  color: gray;
+}
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-left: 20px;
+  margin-top: 20px;
 }
